@@ -10,7 +10,7 @@ from django.views.generic import CreateView, FormView
 
 from usuario.forms import UsuarioCreationForm
 
-
+#uwu
 class UsuarioCreateView(CreateView):
     template_name = 'usuario/cadusuario.html'
     form_class = UsuarioCreationForm
